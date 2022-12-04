@@ -100,8 +100,15 @@ for filename in os.listdir(data_dir):
          xfit = np.linspace(0,max(means.to_numpy()))
          yfit = np.polyval(fit,xfit)
          fit_str = polystr(fit,'\Delta','w_{meas}',fit_degree)
+         
          #get date
          date = date_from_fname(filename)
+         
+         #prit correction for 150 - 210 lb range
+         xeasy = np.linspace(150,210,100)
+         easy = np.mean(np.polyval(fit,xeasy))
+         easy  = np.round(easy,2)
+         print('Mean Delta for 150-210lb range: ',easy, ' lbs')
          
          #plot data
          ax_corr.errorbar(means,delta,
