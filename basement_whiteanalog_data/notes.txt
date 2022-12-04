@@ -1,0 +1,28 @@
+
+#############################################
+2022 Dec 04
+-white analog scale in basement bathroom
+-Using barbell weights as reference weights
+-estimating that they are withing +-.5lbs on uniform distribution
+-measurements on marble floor 
+- when repeatinng measurmeents, took off top weight, let scale settle, and replaced
+- just eyeballing scale like I would if I was normally using it
+
+0lb:
+	nothing on scale
+25lb:
+	1 25lb plate
+50lb:
+	2 25lb plate
+85lb:
+	2 25lb + 1 35lb
+130lb:
+	2*25lb + 1*35 lb + 1*45 lb
+165 lb:
+	130lb ref + 1*35 lb
+175 lb:
+	165lb ref + 1*10lb
+185 lb:
+	175lb + 1*10lb
+	
+continuing 10lb increments to 215lbs
